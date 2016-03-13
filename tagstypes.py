@@ -1,0 +1,5 @@
+TAG_RELATION_VALUES = ["I","II","III","ATTR","APPEND","nil"]
+TAG_MODE_VALUES = ["ind","cond","imp","inf","inf-to","pres-part","past-part","nil"]
+TAG_TENSE_VALUES = ["pres","past","future","inf-to","nil"]
+TAG_ARTICLE_VALUES = ["indef","def","dem-prox","dem-list","no-art"]
+TAG_PRO = ["poss","pro","wh","rel"]

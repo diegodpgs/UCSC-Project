@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dsynts-list>
+	<dsynts id="0">
+	    <dsyntnode polarity="nil" mood="nil" lexeme="V1" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+	    </dsyntnode>
+  	</dsynts>
+  	<dsynts id="1">
+      	<dsyntnode polarity="nil" mood="nil" lexeme="V1" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+	        <dsyntnode polarity="nil" mood="nil" lexeme="V2" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+	       	</dsyntnode>
+	        <dsyntnode lexeme="N1" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+   	  		</dsyntnode>
+  	 	</dsyntnode>
+ 	</dsynts>
+ 	<dsynts id="2">
+      	<dsyntnode polarity="nil" mood="nil" lexeme="V1" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+	        <dsyntnode polarity="nil" mood="nil" lexeme="V2" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+		        <dsyntnode polarity="nil" mood="nil" lexeme="V3" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+		        </dsyntnode>
+		        <dsyntnode polarity="nil" mood="nil" lexeme="V4" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+		        </dsyntnode>
+	     	</dsyntnode>
+	        <dsyntnode lexeme="N1" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+   			</dsyntnode>
+  		</dsyntnode>
+ 	</dsynts>
+ 	<dsynts id="3">
+      	<dsyntnode polarity="nil" mood="nil" lexeme="V1" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+	        <dsyntnode polarity="nil" mood="nil" lexeme="V2" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+		        <dsyntnode polarity="nil" mood="nil" lexeme="V3" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+      			</dsyntnode>
+     		</dsyntnode>
+       		<dsyntnode lexeme="N1" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+   			</dsyntnode>
+  		</dsyntnode>
+ 	</dsynts>
+ 	<dsynts id="4">
+      	<dsyntnode polarity="nil" mood="nil" lexeme="V1" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+	        <dsyntnode polarity="nil" mood="nil" lexeme="V2" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+		        <dsyntnode polarity="nil" mood="nil" lexeme="V3" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+			        <dsyntnode lexeme="N2" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+			      	</dsyntnode>
+      			</dsyntnode>
+     		</dsyntnode>
+       		<dsyntnode lexeme="N1" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+   			</dsyntnode>
+  		</dsyntnode>
+ 	</dsynts>
+ 	<dsynts id="5">
+      	<dsyntnode polarity="nil" mood="nil" lexeme="V1" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+	        <dsyntnode polarity="nil" mood="nil" lexeme="V2" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+		        <dsyntnode polarity="nil" mood="nil" lexeme="V3" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+		       	</dsyntnode>
+		       	<dsyntnode polarity="nil" mood="nil" lexeme="V4" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+      			</dsyntnode>
+     		</dsyntnode>
+       		<dsyntnode lexeme="N1" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+	      		<dsyntnode lexeme="N3" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+	       		</dsyntnode>
+	       		<dsyntnode lexeme="N4" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+    			</dsyntnode>
+   			</dsyntnode>
+  		</dsyntnode>
+ 	</dsynts>
+ 	<dsynts id="6">
+      	<dsyntnode polarity="nil" mood="nil" lexeme="V1" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+	        <dsyntnode polarity="nil" mood="nil" lexeme="V2" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+		        <dsyntnode polarity="nil" mood="nil" lexeme="V3" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+			        <dsyntnode lexeme="N2" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+			      	</dsyntnode>
+		     	</dsyntnode>
+		       	<dsyntnode polarity="nil" mood="nil" lexeme="V4" question="nil" rel="nil" mode="nil" tense="pres" class="Verb">
+		      	</dsyntnode>
+	     	</dsyntnode>
+	       	<dsyntnode lexeme="N1" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+		      	<dsyntnode lexeme="N3" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+		       	</dsyntnode>
+		       	<dsyntnode lexeme="N4" gender="nil" number="nil" person="nil" rel="nil" class="Noun">
+		       	</dsyntnode>
+		    </dsyntnode>
+     	</dsyntnode>
+    </dsynts>
+ </dsynts-list>

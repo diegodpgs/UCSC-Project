@@ -1,0 +1,48 @@
+,is not you?
+
+ <dsynts name="BE">
+    <dsyntnode class="verb" lexeme="be" question="">
+        <dsyntnode class="noun" lexeme="snow" number="sg" person="3rd" rel="I"/>
+        <dsyntnode class="adjective" lexeme="white" rel="ATTR"/>
+    </dsyntnode>
+</dsynts>
+
+<dsyntnode class="symbol" lexeme="," rel="APPEND"/>
+<dsyntnode class="verb" lexeme="be" question="+" rel="APPEND">
+    <dsyntnode article="no-art" class="proper_noun" lexeme="&lt;PRONOUN>" number="sg" person="2nd" rel="I">
+        <dsyntnode class="particle" lexeme="not" rel="ATTR"/>
+    </dsyntnode>
+</dsyntnode>
+
+,Do not I?
+<dsynts name="DO">
+    <dsyntnode class="verb" lexeme="like" question="">
+        <dsyntnode class="proper_noun" lexeme="You" number="sg" person="2nd" rel="I"/>
+        <dsyntnode class="noun" lexeme="coffe" rel="II"/>
+    </dsyntnode>
+</dsynts>
+
+<dsyntnode class="symbol" lexeme="," rel="APPEND"/>
+<dsyntnode class="verb" lexeme="" question="+" rel="APPEND">
+    <dsyntnode article="no-art" class="proper_noun" lexeme="&lt;PRONOUN>" number="sg" person="1st" rel="I">
+        <dsyntnode class="particle" lexeme="not" rel="ATTR"/>
+    </dsyntnode>
+</dsyntnode>
+
+,Can not I?
+
+
+<dsynts name="MODAL">
+    <dsyntnode class="verb" lexeme="come" question="">
+        <dsyntnode class="proper_noun" lexeme="crow" number="sg" person="1st" rel="I"/>
+        <dsyntnode class="modal" lexeme="can" rel="ATTR"/>
+    </dsyntnode>
+</dsynts>
+
+<dsyntnode class="symbol" lexeme="," rel="APPEND"/>
+<dsyntnode class="verb" lexeme="CAN" question="+" rel='APPEND'>
+    <dsyntnode article="no-art" class="proper_noun" lexeme="&lt;PRONOUN>" number="sg" person="2nd" rel="APPEND">
+        <dsyntnode class="particle" lexeme="not" rel="ATTR"/>
+    </dsyntnode>
+</dsyntnode>
+

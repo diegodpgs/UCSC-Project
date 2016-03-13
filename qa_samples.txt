@@ -1,0 +1,133 @@
+SENTENCE   : The crow sat on the tree's branch
+QUESTION 1(ACTION  ) : What did <PRONOUN> do?
+QUESTION 2(QUESTION) : Did <PRONOUN> sit on the tree's branch?
+QUESTION 3(PLACE)    : Where did <PRONOUN> sit?
+QUESTION 4(QUESTION): <BE> <PRONOUN> who sit on the tree's branch?
+
+
+===WH-QUESTIONS===
+
+For Who ands What: in dsyntnode where class=“verb” rel="II”, set question=“+”
+
+Who: in dysyntnode where class=“common_noun” or “proper_noun” only, i.e., where gender and pro attributes make sense
+     pro=“wh” gender=“fem"
+     pro=“wh” gender=“masc"
+What: in dysyntnode where class=“common_noun” or “proper_noun” only, i.e., where gender and pro attributes make sense
+     pro=“wh”
+
+When, Where, Why, How: 
+Take away the whole preposition subtree (headed by in, on, because, etc.), replace with a single node, with lexeme=“when”, “where”, “why”, or “how” and rel=“ATTR"
+
+Which:
+On the head of the subtree which we want to front, set wh=“+”
+     E.g. “The crow sat [on the tree’s branch]."
+       vs. “[On which tree’s branch] did the crow sit?”
+Then, under this node, find the "leafest" node with class=“common_noun” or “proper_noun”, set its article=“no-art", add a node under it with lexeme=“which” and rel=“ATTR"
+     E.g. “The crow sat on the apple tree’s branch."
+        vs.“On which apple tree’s branch did the crow sit?"
+     However, if the leafest node is coordinated by a conjunction word, add the “which” node under the first argument in the conjunction
+     E.g. *“On [apple and which pear] tree’s branch did the crow sit?"
+         vs.“On [which apple and pear] tree’s branch did the crow sit?"
+
+
+* asterisk notation indicates bad sentences
+
+
+
+=======
+ The crow sat on the tree's branch.
+ You sat on the tree's branch.
+
+ The cheese was in the crow's beak.
+ The cheese was in your beak.
+
+ The fox observed the crow.
+ I observed you.
+
+ The fox tried to discover for the fox to get the cheese.
+ I tried to discover how to get the cheese.
+
+ The fox came.
+ I came.
+
+ The fox stood under the tree.
+ I stoode under the tree.
+
+ The fox looked toward the crow.
+ I looked toward you.
+
+ The fox said the fox saw the crow.
+ I said that I saw you.
+
+ The fox said the crow's beauty was incomparable.
+ I said that your beauty was incomparable.
+
+ The fox said the crow's plumage's hue was exquisite.
+ I said that your plumage hue was exquisite.
+
+ The crow undoubtedly was the every bird's queen the fox said the crow's voice's sweetness was the crow's appearance's fairness.
+
+  I&(*&()*^*&)&
+
+ The crow felt for the fox to flatter the crow.
+ You felt me to flatter you.
+
+ The crow loudly cawed in order for the crow to show the fox for the crow to be able to to sing.
+ (*&^(*^)(&*))
+
+ The cheese fell.
+ (*&(*)&())
+
+ The fox snatched the cheese.
+ I snatched the cheese.
+
+ The fox said the crow was able to to sing.
+ I said that you was able to sing.
+
+ The fox said the crow needed the wits.      
+ I said to you needed the wits.
+
+ ##############
+ <?xml version="1.0" encoding="utf-8"?>
+<dsynts-list>
+  <dsynts id="3">
+    <dsyntnode class="verb" lexeme="try" mode="" mood="ind" rel="II" tense="past" question="+">
+      <dsyntnode article="no-art" class="proper_noun" gender="masc" lexeme="&lt;PRONOUN&gt;" number="sg" person="1st" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="discover" mode="inf-to" mood="inf-to" rel="III" tense="inf-to">
+        <dsyntnode class="verb" lexeme="get" mode="inf-to" mood="inf-to" rel="II" tense="inf-to">
+          <dsyntnode article="no-art" class="proper_noun" gender="masc" lexeme="&lt;PRONOUN&gt;" number="sg" person="1st" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+          <dsyntnode article="def" class="common_noun" gender="neut" lexeme="cheese" number="sg" person="" ref="$anon_noun7850329:cheese()_1$" rel="II"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+<dsynts id="7">
+    <dsyntnode class="verb" lexeme="say" mode="" mood="ind" rel="II" tense="past" question="+">
+      <dsyntnode article="def" class="proper_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="see" mode="" mood="ind" rel="III" tense="past">
+        <dsyntnode article="def" class="proper_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+        <dsyntnode article="def" class="proper_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="II"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+    <dsynts id="8">
+    <dsyntnode class="verb" lexeme="say" mode="" mood="ind" rel="II" tense="past" question="+">
+      <dsyntnode article="no-art" class="proper_noun" gender="masc" lexeme="&lt;PRONOUN&gt;" number="sg" person="1st" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="be" mood="ind" rel="III" tense="past">
+        <dsyntnode class="adjective" lexeme="incomparable" rel="II"/>
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="beauty" number="sg" person="" ref="|anon_role of something unique(noun4683814:beauty(), anon_noun1579028:crow(CharacterGender.Female)_1)_1|" rel="I">
+          <dsyntnode article="no-art" class="proper_noun" gender="fem" lexeme="&lt;PRONOUN&gt;" number="sg" person="2nd" ref="anon_noun1579028:crow(CharacterGender.Female)_1" rel="I"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+    <dsynts id="11">
+    <dsyntnode class="verb" lexeme="feel" mode="" mood="ind" rel="II" tense="past" question="+">
+      <dsyntnode article="def" class="proper_noun" gender="fem" lexeme="&lt;PRONOUN&gt;" number="sg" person="1st" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="flatter" mode="inf-to" mood="inf-to" rel="III" tense="inf-to">
+        <dsyntnode article="def" class="proper_noun" gender="masc" lexeme="&lt;PRONOUN&gt;" number="sg" person="1st" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+        <dsyntnode article="def" class="proper_noun" gender="fem" lexeme="&lt;PRONOUN&gt;" number="sg" person="2nd" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="II"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+</dsynts-list>

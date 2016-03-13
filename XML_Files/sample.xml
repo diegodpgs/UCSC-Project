@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dsynts-list>
+    <dsynts name="X1 can Y1."><!-- mach -->
+        <dsyntnode class="verb" lexeme="be" question="" tense='past' rel='I'>
+            <dsyntnode class="common_noun" lexeme="<PRONOUN>" number="pl" rel="II"/>
+        </dsyntnode>
+    </dsynts>
+    <dsynts name="X1 can Y1."><!-- mach -->
+        <dsyntnode class="verb" lexeme="come" question="">
+            <dsyntnode class="common_noun" lexeme="I" number="sg" person="1st" rel="I"/>
+            <dsyntnode lexeme="can" rel="ATTR"/>
+        </dsyntnode>
+    </dsynts>
+   <dsynts name="X1 be Y1."><!-- mach -->
+        <dsyntnode class="verb" lexeme="be" question="">
+            <dsyntnode class="common_noun" lexeme="snow" number="sg" person="3rd" rel="I"/>
+            <dsyntnode class="adjective" lexeme="white" rel="ATTR"/>
+        </dsyntnode>
+    </dsynts>
+    <dsynts name="X1 be Y1."><!-- mach -->
+        <dsyntnode class="verb" lexeme="be" question="" tense="past">
+            <dsyntnode class="common_noun" lexeme="wheater" number="sg" person="3rd" rel="I" article="def"/>
+            <dsyntnode class="adjective" lexeme="bad" rel="ATTR"/>
+        </dsyntnode>
+    </dsynts>
+    <dsynts id="0">
+    <dsyntnode class="verb" lexeme="sit" mode="" mood="ind" rel="II" tense="pres" question="" >
+      <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+      <dsyntnode class="preposition" lexeme="on" rel="ATTR">
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="branch" number="sg" person="" ref="$anon_prop a part of something(noun13163250:branch(), anon_noun13104059:tree()_1)_1$" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="tree" number="sg" person="" ref="anon_noun13104059:tree()_1" rel="I"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="0">
+    <dsyntnode class="verb" lexeme="sit" mode="" mood="ind" rel="II" tense="past" question="" >
+      <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+      <dsyntnode class="preposition" lexeme="on" rel="ATTR">
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="branch" number="sg" person="" ref="$anon_prop a part of something(noun13163250:branch(), anon_noun13104059:tree()_1)_1$" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="tree" number="sg" person="" ref="anon_noun13104059:tree()_1" rel="I"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="1">
+    <dsyntnode class="verb" lexeme="be" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="cheese" number="sg" person="" ref="$anon_noun7850329:cheese()_1$" rel="I"/>
+      <dsyntnode class="preposition" lexeme="in" rel="ATTR">
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="beak" number="sg" person="" ref="$anon_prop the part of something(noun1758308:beak(), anon_noun1579028:crow(CharacterGender.Female)_1)_1$" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="anon_noun1579028:crow(CharacterGender.Female)_1" rel="I"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="2">
+    <dsyntnode class="verb" lexeme="observe" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="II"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="3">
+    <dsyntnode class="verb" lexeme="try" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="discover" mode="inf-to" mood="inf-to" rel="III" tense="inf-to">
+        <dsyntnode class="verb" lexeme="get" mode="inf-to" mood="inf-to" rel="II" tense="inf-to">
+          <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+          <dsyntnode article="def" class="common_noun" gender="neut" lexeme="cheese" number="sg" person="" ref="$anon_noun7850329:cheese()_1$" rel="II"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="4">
+    <dsyntnode class="verb" lexeme="come" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="5">
+    <dsyntnode class="verb" lexeme="stand" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="preposition" lexeme="under" rel="ATTR">
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="tree" number="sg" person="" ref="$anon_noun13104059:tree()_1$" rel="II"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="6">
+    <dsyntnode class="verb" lexeme="look" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="preposition" lexeme="toward" rel="ATTR">
+        <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="II"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="7">
+    <dsyntnode class="verb" lexeme="say" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="see" mode="" mood="ind" rel="III" tense="past">
+        <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+        <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="II"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="8">
+    <dsyntnode class="verb" lexeme="say" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="be" mood="ind" rel="III" tense="past">
+        <dsyntnode class="adjective" lexeme="incomparable" rel="II"/>
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="beauty" number="sg" person="" ref="|anon_role of something unique(noun4683814:beauty(), anon_noun1579028:crow(CharacterGender.Female)_1)_1|" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="anon_noun1579028:crow(CharacterGender.Female)_1" rel="I"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="9">
+    <dsyntnode class="verb" lexeme="say" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="be" mood="ind" rel="III" tense="past">
+        <dsyntnode class="adjective" lexeme="exquisite" rel="II"/>
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="hue" number="sg" person="" ref="|anon_role of something unique(noun4975122:hue(), anon_prop the part of something(noun1896031:feather_3(), anon_noun1579028:crow(CharacterGender.Female)_1)_1)_1|" rel="I">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="plumage" number="sg" person="" ref="anon_prop the part of something(noun1896031:feather_3(), anon_noun1579028:crow(CharacterGender.Female)_1)_1" rel="I">
+            <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="anon_noun1579028:crow(CharacterGender.Female)_1" rel="I"/>
+          </dsyntnode>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="10">
+    <dsyntnode class="verb" lexeme="say" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="be" mood="ind" rel="III" tense="past">
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="sweetness" number="sg" person="" ref="|anon_role of something unique(noun4778630:pleasantness_2(), anon_role of something unique(noun4981941:voice(), anon_noun1579028:crow(CharacterGender.Female)_1)_1)_1|" rel="I">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="voice" number="sg" person="" ref="anon_role of something unique(noun4981941:voice(), anon_noun1579028:crow(CharacterGender.Female)_1)_1" rel="I">
+            <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="anon_noun1579028:crow(CharacterGender.Female)_1" rel="I"/>
+          </dsyntnode>
+        </dsyntnode>
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="fairness" number="sg" person="" ref="|anon_role of something unique(noun4685396:comeliness_2(), anon_role of something unique(noun4673965:appearance(), anon_noun1579028:crow(CharacterGender.Female)_1)_1)_1|" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="appearance" number="sg" person="" ref="anon_role of something unique(noun4673965:appearance(), anon_noun1579028:crow(CharacterGender.Female)_1)_1" rel="I">
+            <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="anon_noun1579028:crow(CharacterGender.Female)_1" rel="I"/>
+          </dsyntnode>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="verb" lexeme="be" mood="ind" rel="III" tense="past">
+        <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+        <dsyntnode article="def" class="common_noun" gender="fem" lexeme="queen" number="sg" person="" ref="&quot;anon_character the role of something(CharacterGender.Female, noun10499355:queen(CharacterGender.Female), anon_EVERY(CharacterGender.Neutral, noun1503061:bird(CharacterGender.Female))_1)_1&quot;" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="bird" number="sg" person="" ref="anon_EVERY(CharacterGender.Neutral, noun1503061:bird(CharacterGender.Female))_1" rel="I">
+            <dsyntnode class="ATTR" lexeme="every"/>
+          </dsyntnode>
+        </dsyntnode>
+        <dsyntnode class="adverb" lexeme="undoubtedly" position="pre-verbal" rel="ATTR"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="11">
+    <dsyntnode class="verb" lexeme="feel" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="flatter" mode="inf-to" mood="inf-to" rel="III" tense="inf-to">
+        <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+        <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="II"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="12">
+    <dsyntnode class="verb" lexeme="caw" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+      <dsyntnode class="adverb" lexeme="loudly" position="pre-verbal" rel="ATTR"/>
+      <dsyntnode class="preposition" lexeme="in_order" rel="ATTR">
+        <dsyntnode class="verb" extrapo="+" lexeme="show" mode="inf-to" mood="inf-to" rel="II" tense="inf-to">
+          <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+          <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="II"/>
+          <dsyntnode class="verb" lexeme="be" mood="inf-to" rel="III" tense="inf-to">
+            <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+            <dsyntnode class="adjective" lexeme="able" rel="II"/>
+            <dsyntnode lexeme="TO" rel="ATTR">
+              <dsyntnode class="verb" lexeme="sing" mode="inf-to" mood="inf" rel="II" tense="inf-to"/>
+            </dsyntnode>
+          </dsyntnode>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="13">
+    <dsyntnode class="verb" lexeme="fall" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="cheese" number="sg" person="" ref="$anon_noun7850329:cheese()_1$" rel="I"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="14">
+    <dsyntnode class="verb" lexeme="snatch" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="cheese" number="sg" person="" ref="$anon_noun7850329:cheese()_1$" rel="II"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="15">
+    <dsyntnode class="verb" lexeme="say" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="be" mood="inf" rel="III" tense="past">
+        <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+        <dsyntnode class="adjective" lexeme="able" rel="II"/>
+        <dsyntnode lexeme="TO" rel="ATTR">
+          <dsyntnode class="verb" lexeme="sing" mode="inf-to" mood="inf" rel="II" tense="inf-to"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="16">
+    <dsyntnode class="verb" lexeme="say" mode="" mood="ind" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="masc" lexeme="fox" number="sg" person="" ref="&quot;anon_noun2118333:fox(CharacterGender.Male)_1&quot;" rel="I"/>
+      <dsyntnode class="verb" lexeme="need" mood="ind" rel="III" tense="past">
+        <dsyntnode article="def" class="common_noun" gender="fem" lexeme="crow" number="sg" person="" ref="&quot;anon_noun1579028:crow(CharacterGender.Female)_1&quot;" rel="I"/>
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="wits" number="sg" person="" ref="|anon_noun5622196:wits()_1|" rel="II"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+</dsynts-list>
